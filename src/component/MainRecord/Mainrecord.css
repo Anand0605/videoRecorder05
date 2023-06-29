@@ -2,27 +2,71 @@
     min-height: 700px;
     width: 100%;
     background-color: aquamarine;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
 }
 
 .record {
-    height: 500px;
-    width: 400px;
-    background-color: darkgreen;
+    height: 350px;
+    width: 300px;
+    background-color: #8ae9b3;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 2px solid black;
 
+}
+
+.recording {
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: red;
+    overflow: hidden;
+    border: none;
 }
 
 .record-view {
-    height: 500px;
-    width: 400px;
-    background-color: chartreuse;
+    height: 350px;
+    width: 300px;
+    background-color: #8ae9b3;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 2px solid black;
+}
+
+.record-item1 {
+    height: 200px;
+    width: 270px;
+    border: 2px solid red;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .record-item {
-    height: 500px;
-    width: 400px;
-    background-color: crimson;
+    height: 350px;
+    width: 300px;
+    background-color: #8ae9b3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 2px solid black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ae9b3;
 }
