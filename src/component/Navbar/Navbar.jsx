@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../../Images/logo1.png'
+import logo from '../../Images/logo3.png'
 import github from '../../Images/github2.svg'
 import linkdin from '../../Images/linked2.svg'
 import instagram from '../../Images/instagram.svg'

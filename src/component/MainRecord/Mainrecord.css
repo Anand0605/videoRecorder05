@@ -1,0 +1,28 @@
+.mainpage {
+    min-height: 700px;
+    width: 100%;
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.record {
+    height: 500px;
+    width: 400px;
+    background-color: darkgreen;
+
+}
+
+.record-view {
+    height: 500px;
+    width: 400px;
+    background-color: chartreuse;
+}
+
+.record-item {
+    height: 500px;
+    width: 400px;
+    background-color: crimson;
+}
