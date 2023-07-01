@@ -2,7 +2,6 @@
     min-height: 700px;
     width: 100%;
     background-color: aquamarine;
-    /* height: 300px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,7 +15,6 @@
     width: 300px;
     background-color: #8ae9b3;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     gap: 20px;
@@ -32,6 +30,8 @@
     background-color: red;
     overflow: hidden;
     border: none;
+    font: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .record-view {
@@ -49,8 +49,8 @@
 .record-item1 {
     height: 200px;
     width: 270px;
-    border: 2px solid red;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 1px solid red;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.8) 0px 30px 60px -30px;
 }
 
 .record-item {
@@ -70,3 +70,10 @@
     align-items: center;
     background-color: #8ae9b3;
 }
+
+/* @media only screen and (Max-width: 360px) {
+    .record.recording.record-view {
+        height: 320px;
+        width: 180px;
+    }
+} */
